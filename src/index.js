@@ -1,8 +1,7 @@
 const fs = require("fs").promises;
-const getClassicTheme = require("./classic/theme");
+const getTheme = require("./theme");
 
-const darkTheme = getClassicTheme({
-	style: "dark",
+const darkTheme = getTheme({
 	name: "Kanagawa Pretty",
 });
 

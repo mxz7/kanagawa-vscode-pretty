@@ -2,6 +2,7 @@ function getTheme({ name }) {
 	// Kanagawa palette (dark mode)
 	const K = {
 		bg_deep: "#16161D", // deepest bg: statusbar, tabbar, dropdown
+		bg_darker: "#1a1a22", // command palette, suggest widget
 		bg: "#1F1F28", // editor bg, sidebar bg
 		bg_dim: "#2A2A37", // activity bar, line highlight, panels
 		bg_medium: "#363646", // hover, active selection, title bar
@@ -129,7 +130,7 @@ function getTheme({ name }) {
 
 			"pickerGroup.border": K.bg_dim,
 			"pickerGroup.foreground": workbenchForeground,
-			"quickInput.background": workbenchBackground,
+			"quickInput.background": K.bg_darker,
 			"quickInput.foreground": workbenchForeground,
 			"quickInputTitle.background": K.bg_dim,
 
@@ -208,7 +209,7 @@ function getTheme({ name }) {
 			"editorInlayHint.background": editorBackground,
 			"editorMarkerNavigation.background": K.bg_medium,
 			"editorRuler.foreground": K.bg_medium,
-			"editorSuggestWidget.background": K.bg,
+			"editorSuggestWidget.background": K.bg_darker,
 			"editorSuggestWidget.border": K.bg_medium,
 			"editorSuggestWidget.selectedBackground": K.bg_medium,
 

@@ -113,7 +113,7 @@ function getTheme({ name }) {
 			"list.inactiveSelectionBackground": K.bg_dim,
 			"list.activeSelectionBackground": K.bg_medium,
 			"list.inactiveFocusBackground": K.bg_dim,
-			"list.focusBackground": K.bg_dim,
+			"list.focusBackground": K.bg_medium,
 			"list.highlightForeground": K.blue,
 			"list.warningForeground": K.amber_warn,
 
@@ -129,10 +129,10 @@ function getTheme({ name }) {
 			"notificationsInfoIcon.foreground": K.blue,
 
 			"pickerGroup.border": K.bg_dim,
-			"pickerGroup.foreground": workbenchForeground,
+			"pickerGroup.foreground": K.fg_muted,
 			"quickInput.background": K.bg_darker,
 			"quickInput.foreground": workbenchForeground,
-			"quickInputTitle.background": K.bg_dim,
+			"quickInputTitle.background": K.bg_deep,
 
 			"menu.background": K.bg_dim,
 			"menu.foreground": workbenchForeground,
@@ -202,7 +202,7 @@ function getTheme({ name }) {
 			"editorCursor.background": K.fg,
 			"editorError.foreground": K.red,
 			"editorWarning.foreground": K.amber_warn,
-			"editorHoverWidget.background": K.bg,
+			"editorHoverWidget.background": K.bg_darker,
 			"editorHoverWidget.border": K.bg_medium,
 			"editorHoverWidget.highlightForeground": K.teal_dim,
 			"editorInlayHint.foreground": K.fg_muted,
@@ -210,7 +210,7 @@ function getTheme({ name }) {
 			"editorMarkerNavigation.background": K.bg_medium,
 			"editorRuler.foreground": K.bg_medium,
 			"editorSuggestWidget.background": K.bg_darker,
-			"editorSuggestWidget.border": K.bg_medium,
+			"editorSuggestWidget.border": K.bg_dim,
 			"editorSuggestWidget.selectedBackground": K.bg_medium,
 
 			"editor.findMatchBackground": K.bg_search,

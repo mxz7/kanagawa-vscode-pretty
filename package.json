@@ -2,7 +2,7 @@
 	"name": "kanagawa-vscode-pretty",
 	"displayName": "Kanagawa Pretty",
 	"description": "A pretty Kanagawa-inspired VS Code theme.",
-	"version": "1.0.0",
+	"version": "1.1.0",
 	"publisher": "mxz7",
 	"license": "MIT",
 	"icon": "icon.png",

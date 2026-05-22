@@ -1,32 +1,32 @@
 function getTheme({ name }) {
 	// Kanagawa palette (dark mode)
 	const K = {
-		bg_deep: "#16161D", // deepest bg: statusbar, tabbar, dropdown
+		bg_deep: "#16161D", // deepest bg: titlebar, sidebar, activitybar, tabbar, statusbar, panels, terminal
 		bg_darker: "#1a1a22", // command palette, suggest widget
-		bg: "#1F1F28", // editor bg, sidebar bg
-		bg_dim: "#2A2A37", // activity bar, line highlight, panels
-		bg_medium: "#363646", // hover, active selection, title bar
-		bg_blue: "#223249", // selections, suggest widget
-		bg_search: "#2D4F67", // find match, suggest selected
+		bg: "#1F1F28", // editor bg, active tab bg
+		bg_dim: "#2A2A37", // line highlight, widgets, list items, buttons, badges
+		bg_medium: "#363646", // hover, active selection, suggest selected
+		bg_blue: "#223249", // editor selections, secondary buttons, tip borders
+		bg_search: "#2D4F67", // find match, peek match highlight
 		fg: "#DCD7BA", // main foreground
-		fg_status: "#C8C093", // status bar foreground
+		fg_status: "#C8C093", // (unused)
 		fg_muted: "#727169", // comments, ignored, description
 		fg_subtle: "#54546D", // line numbers, word highlights
 		purple: "#957FB8", // keywords, storage, attributes, accent
 		blue: "#7E9CD8", // functions, methods, headings
-		blue_light: "#7FB4CA", // constants, boolean, escape chars
+		blue_light: "#7FB4CA", // constants, regexp, escape chars
 		blue_med: "#9CABCA", // punctuation, cyan terminal
 		teal: "#7AA89F", // class, type, support
 		teal_dark: "#6A9589", // text links
 		teal_dim: "#658594", // activity badge, terminal blue
 		green: "#98BB6C", // strings, inserted
 		green_dark: "#76946A", // gutter added, inserted markup
-		yellow: "#E6C384", // properties, html attributes, html tags
+		yellow: "#E6C384", // properties, html attributes, html tags, parameters
 		gold: "#C0A36E", // operators, arithmetic
-		orange: "#FFA066", // variable.readonly, macro, import
+		orange: "#FFA066", // variable.readonly, macro, booleans
 		amber: "#DCA561", // modified
 		amber_warn: "#FF9E3B", // warnings, terminal yellow
-		pink: "#D27E99", // numbers, JSON level 0
+		pink: "#D27E99", // numbers
 		red: "#E82424", // errors
 		red_bright: "#FF5D62", // invalid, language methods
 		red_dark: "#C34043", // deleted, gutter deleted

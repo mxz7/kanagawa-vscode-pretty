@@ -249,7 +249,7 @@ function getTheme({ name }) {
 			"diffEditor.insertedTextBackground": "#2B3328",
 			"diffEditor.removedTextBackground": "#43242430",
 
-			"scrollbar.shadow": K.bg_medium,
+			"scrollbar.shadow": K.bg_deep,
 			"scrollbarSlider.background": "#54546D66",
 			"scrollbarSlider.hoverBackground": "#54546D80",
 			"scrollbarSlider.activeBackground": "#6f6f9080",

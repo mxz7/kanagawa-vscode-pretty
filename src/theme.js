@@ -144,6 +144,7 @@ function getTheme({ name }) {
 
 			"editorWidget.foreground": workbenchForeground,
 			"editorWidget.border": panelBorder,
+			"editorActionList.background": K.bg_darker,
 
 			"chat.requestBackground": tipBackground,
 			"chat.requestBorder": tipBorder,
@@ -190,7 +191,7 @@ function getTheme({ name }) {
 
 			"editor.foreground": editorForeground,
 			"editor.background": editorBackground,
-			"editorWidget.background": K.bg_dim,
+			"editorWidget.background": K.bg_darker,
 			"editor.foldBackground": "#54546D22",
 			"editor.lineHighlightBackground": K.bg_dim,
 			"editorLineNumber.foreground": K.fg_subtle,

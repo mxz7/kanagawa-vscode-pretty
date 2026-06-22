@@ -149,7 +149,7 @@ function getTheme({ name }) {
 			"chat.requestBackground": tipBackground,
 			"chat.requestBorder": tipBorder,
 			"chat.requestBubbleBackground": tipBackground,
-			"chat.requestBubbleHoverBackground": K.bg_dim,
+			"chat.requestBubbleHoverBackground": K.bg_medium,
 			"chat.requestCodeBorder": tipBorder,
 			"inlineChat.background": tipBackground,
 			"inlineChat.border": tipBorder,

@@ -45,7 +45,7 @@ function getTheme({ name }) {
 		colors: {
 			focusBorder: K.purple,
 			foreground: K.fg,
-			descriptionForeground: K.fg,
+			descriptionForeground: K.fg_muted,
 			errorForeground: K.red,
 			"icon.foreground": K.fg,
 			"keybindingLabel.foreground": K.fg,

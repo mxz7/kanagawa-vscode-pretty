@@ -198,7 +198,7 @@ function getTheme({ name }) {
 			"editorLineNumber.activeForeground": K.purple,
 			"editorIndentGuide.background": K.bg_medium,
 			"editorIndentGuide.activeBackground": K.fg_subtle,
-			"editorWhitespace.foreground": K.bg,
+			"editorWhitespace.foreground": K.fg_subtle,
 			"editorCursor.foreground": K.fg,
 			"editorCursor.background": K.fg,
 			"editorError.foreground": K.red,

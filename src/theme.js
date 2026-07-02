@@ -2,8 +2,8 @@ function getTheme({ name }) {
 	// Kanagawa palette (dark mode)
 	const K = {
 		bg_deep: "#16161D", // deepest bg: titlebar, sidebar, activitybar, tabbar, statusbar, panels, terminal
-		bg_darker: "#1a1a22", // command palette, suggest widget
-		bg: "#1F1F28", // editor bg, active tab bg
+		bg_darker: "#1a1a22", // command palette, suggest widget, editor bg, active tab bg
+		bg: "#1F1F28", // dropdown list, status bar (no folder), panel section header, terminal black
 		bg_dim: "#2A2A37", // line highlight, widgets, list items, buttons, badges
 		bg_medium: "#363646", // hover, active selection, suggest selected
 		bg_blue: "#223249", // editor selections, secondary buttons, tip borders
@@ -33,8 +33,8 @@ function getTheme({ name }) {
 	};
 
 	const workbenchForeground = K.fg;
-	const workbenchBackground = K.bg;
-	const editorBackground = K.bg;
+	const workbenchBackground = K.bg_darker;
+	const editorBackground = K.bg_darker;
 	const panelBorder = K.bg_dim;
 	const tipBackground = K.bg_dim;
 	const tipBorder = K.bg_blue;
